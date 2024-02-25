@@ -1,0 +1,87 @@
+{
+	"title": "Qual seria a sua lane no Smite?",
+	"questions": [
+		{
+			"id": 1,
+			"question": "Seu companheiro de time está na base e uma fileira de minions inimiga está descendo a lane. O que você faz?",
+			"options": [
+				{
+					"id": 1,
+					"name": "Mato os minions e volto para a minha lane",
+					"alias": "M"
+				},
+				{
+					"id": 2,
+					"name": "Não mato os minions e vou fazer o buff para o solo",
+					"alias": "J"
+				},
+				{
+					"id": 3,
+					"name": "Não mato os minions e bato na torre inimiga",
+					"alias": "A"
+				},
+				{
+					"id": 4,
+					"name": "Mato os minions e fico safe na torre esperando o gank aliado",
+					"alias": "S"
+				},
+				{
+					"id": 5,
+					"name": "Mato os minions e ainda bato no solo inimigo",
+					"alias": "SP"
+				}
+			]
+		},
+		{
+			"id": 2,
+			"question": "Qual dessas relíquias você utilizaria em uma partida?",
+			"options": [
+				{ "id": 1, "name": "Pérolas de Purificação", "alias": "M" },
+				{ "id": 2, "name": "Runa de Piscar", "alias": "J" },
+				{ "id": 3, "name": "Casco Mágico", "alias": "SP" },
+				{ "id": 4, "name": "Amuleto Égide", "alias": "A" },
+				{ "id": 5, "name": "Fragmento de Teleporte", "alias": "S" }
+			]
+		},
+		{
+			"id": 3,
+			"question": "Qual a sua classe preferida?",
+			"options": [
+				{ "id": 1, "name": "Mago", "alias": "M" },
+				{ "id": 2, "name": "Assassino", "alias": "J" },
+				{ "id": 3, "name": "Caçador", "alias": "A" },
+				{ "id": 4, "name": "Guerreiro", "alias": "S" },
+				{ "id": 5, "name": "Guardião", "alias": "SP" }
+			]
+		},
+		{
+			"id": 4,
+			"question": "Em uma teamfight como você se posiciona?",
+			"options": [
+				{ "id": 1, "name": "Vou na frente de todo mundo", "alias": "SP" },
+				{ "id": 2, "name": "Espero para me aproximar de um inimigo distraído", "alias": "J" },
+				{ "id": 3, "name": "Fico mais distante e corro depois de sofrer um hit", "alias": "M" },
+				{ "id": 4, "name": "Me jogo no meio da galera, mas com cuidado", "alias": "S" },
+				{ "id": 5, "name": "Fico a média distância e tento acertar o inimigo", "alias": "A" }
+			]
+		},
+		{
+			"id": 5,
+			"question": "Com que frequência você coloca vigias na partida?",
+			"options": [
+				{ "id": 1, "name": "Quase nunca, pois tenho babá", "alias": "A" },
+				{ "id": 2, "name": "As vezes parece que só eu compro vigia", "alias": "S" },
+				{ "id": 3, "name": "Nunca. Meu farm é pouco, rs", "alias": "J" },
+				{ "id": 4, "name": "Quase sempre, as vezes parece que tô numa arena", "alias": "M" },
+				{ "id": 5, "name": "Sempre. Senão reclamam que não ajudo em nada ", "alias": "SP" }
+			]
+		}
+	],
+	"results": {
+		"M": "Você muito provavelmente seria um Mid!",
+		"J": "Você muito provavelmente seria um Jungle!",
+		"A": "Você muito provavelmente seria um ADC!",
+		"S": "Você muito provavelmente seria um Solo!",
+		"SP": "Você muito provavelmente seria um Suporte!"
+	}
+}

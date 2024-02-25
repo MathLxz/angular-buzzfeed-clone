@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* CORES
+	#779BE7
+	#000103
+	#2D0838
+	#40C9A2
+	#FFFFFF
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+	color: #ffffff;
+}
+
+body {
+	background-color: #310d53;
+}
